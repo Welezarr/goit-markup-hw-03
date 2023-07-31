@@ -1,0 +1,200 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-ocean: #404bbf;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--color-white);
+}
+/** =====Header==== */
+.header-logo.link,
+.footer-logo.link {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-menu-list.list, 
+.header-address-list.list{
+    list-style: none;
+}
+.span-web.link {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header-menu-link.link {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-item-contacts.link {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-decoration: none;
+}
+.header-address.list {
+  font-style: normal;
+}
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-item-contacts.link:hover,
+.header-item-contacts.link:focus
+{
+  color: var(--ocean, #404BBF);
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+.footer-stud {
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/** ======Section======  */
+
+.hero{
+    background-color: #2e2f42;
+}
+.hero-title{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    line-height: 1.07; /* 107.143% */
+    letter-spacing: 0.02em;
+}
+.hero-btn{
+    background: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+}
+.sect-list-btn.list{
+  list-style: none;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.advantages-header,
+.team-name{
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.advantages-list.list{
+  font-style: normal;
+  list-style: none;
+}
+.advantages-text,
+.teame-text{
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
+.services-production,
+.team-header{
+  color: var(--navyblue, #2E2F42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.services-img.list,
+.team-list.list{
+  list-style: none;
+}
+.team{
+  background: var(--cloud, #F4F4FD);
+}
+.name{
+  background: var(--white, #FFF);
+}
+.sec-btn{
+  color:var(--color-iris);
+  background-color: #F4F4FD;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.sec-btn:hover,
+.sec-btn:focus{
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.sec-list.list{
+  list-style: none;
+}
+.list-img.link{
+  text-decoration: none;
+}
+.sec-header{
+  color: var(--navyblue, #2E2F42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.sec-text{
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
