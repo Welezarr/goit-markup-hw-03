@@ -119,13 +119,13 @@ img{
   background: var(--navyblue, #2e2f42);
 }
 .footer-stud {
-    color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.16; /* 116.667% */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  color: var(--cloud, #F4F4FD);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -136,35 +136,36 @@ img{
   max-width: 264px;
 }
 .footer{
-  padding: 100px 0 100px
+  padding: 100px 0 100p
 }
 /** ======Section======  */
 
 .hero{
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-title{
-    color: var(--white, #FFF);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    line-height: 1.07; /* 107.143% */
-    letter-spacing: 0.02em;
-    max-width: 496px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .hero-btn{
-    background: var(--iris, #4D5AE5);
-    color: var(--white, #FFF);
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.04em;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
+  background: var(--iris, #4D5AE5);
+  color: var(--white, #FFF);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .sect-list-btn.list{
   list-style: none;
@@ -222,11 +223,11 @@ img{
 }
 .advantages-text,
 .teame-text{
-    color: var(--slate, #434455);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .teame-text{
   text-align: center;
